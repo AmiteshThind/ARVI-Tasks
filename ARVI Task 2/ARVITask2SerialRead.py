@@ -9,7 +9,8 @@ arduinoSerial = serial.Serial('/dev/tty.usbmodem14201',9600)
 time.sleep(2)
 
 
+
 while(True):
     print arduinoSerial.readline()# outputs value of the tempreaure sensor being read by arduino 
-    
+    print "Celsius"
 
